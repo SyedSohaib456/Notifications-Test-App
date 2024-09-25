@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "Notifications",
-    "slug": "Notifications",
+    "slug": "notifications",
+    "projectId": "f6527624-3e91-4d9c-9729-71c2881b8fd4",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
   }
 }
